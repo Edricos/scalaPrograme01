@@ -17,15 +17,15 @@ object src01 {
     writer.write("ok")
     writer.close()
     println("输入：")
-    var var01: String = StdIn.readLine()
-    while (var01 != "0") {
-      if1(var01)
-      var01 = StdIn.readLine()
-    }
 
-
+//    var var01: String = StdIn.readLine()
+//    while (var01 != "0") {
+//      if1(var01)
+//      var01 = StdIn.readLine()
+//    }
 
   }
+
 
   def if1(var01: String): Unit = {
     println("输入 0 退出循环")
